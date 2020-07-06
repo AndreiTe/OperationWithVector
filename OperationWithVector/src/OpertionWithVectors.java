@@ -3,9 +3,9 @@
 public class OpertionWithVectors {
     public static void main(String[] args) {
     VectorFromCoordinates v1 =
-            new VectorFromCoordinates(new VectorFromPoints(new Point(1,1), new Point(3,3)));
+            new VectorFromCoordinates(new VectorFromPoints(new Point(1,1), new Point(3,2)));
     VectorFromCoordinates v2 =
-            new VectorFromCoordinates(new VectorFromPoints(new Point(0,0), new Point(-3,-3)));
+            new VectorFromCoordinates(new VectorFromPoints(new Point(2,1), new Point(4,0.5)));
 
     VectorFromCoordinates v3 = new VectorFromCoordinates();
         v3 = sumVectors(v1,v2);
